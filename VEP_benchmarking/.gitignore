@@ -1,0 +1,6 @@
+input/
+log/
+output/
+.Rhistory
+Rplots.pdf
+.DS_Store

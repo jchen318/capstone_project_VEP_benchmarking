@@ -1,0 +1,50 @@
+###
+# Run-specific settings
+# Adjust this section for each run.
+###
+gene_list: common/genes.csv
+phenotype_list: common/phenotypeDescriptions.csv
+rscript_path: Rscript
+input_var_dir: /home/rothlab/dtabet/ukb/ukb_data_450k_vFinal/
+occurance_cutoff: 10 # Minimum number of variants with predictions (for each predictor)
+bootstrap_iterations: 10000
+output_path : output
+
+###
+# Global settings
+# Adjust this section only when using non-default inputs.
+###
+all_variants_path: ukb23157_c%s_b%s_v1_filtered_mut.csv
+unique_variants_path: ukb23157_c%s_b%s_v1_all_weights.csv
+withdraw_eids_path: common/withdrawnParticipants_042023.csv
+variant_blocks_path: common/pvcf_blocks.txt
+db_connect_path: db_connect.yaml
+variant_predictors:
+  VARITY: VARITY_R_score # Format: [predictor name]: [predictor column name in unique variants file]
+  PolyPhen-2: Polyphen2_HVAR_score
+  PROVEAN: PROVEAN_flipped
+  SIFT: SIFT_flipped
+  FATHMM: FATHMM_flipped
+  MPC: MPC_score
+  LRT: LRT_flipped
+  REVEL: REVEL_score
+  PrimateAI: PrimateAI_score
+  CADD: CADD_raw
+  DANN: DANN_score
+  Eigen: Eigen-raw_coding
+  GenoCanyon: GenoCanyon_score
+  M-CAP: M-CAP_score
+  MetaLR: MetaLR_score
+  MetaSVM: MetaSVM_score
+  MVP: MVP_score
+  MutationTaster: MutationTaster_score
+  SiPhy: SiPhy_29way_logOdds
+#  MutPred: MutPred_score
+#  EVE: EVE_score
+  ESM1b: ESM1b_flipped
+  ESM1v: ESM1v_flipped
+  MutPred2: MutPred2_score
+  CADD2: RawScore
+#  ESM_CADD2: EsmScoreMissense_flipped
+  AlphaMissense: alphaMissense_score
+plot_individual_correlations: false
