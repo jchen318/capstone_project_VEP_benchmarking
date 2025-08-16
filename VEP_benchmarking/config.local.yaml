@@ -1,0 +1,25 @@
+rscript_path: Rscript
+bootstrap_iterations: 100
+occurance_cutoff: 10
+
+all_variants_path: sample_variants_filtered.csv
+unique_variants_path: common/VEP_scores_vFinal_sample.csv
+phenotype_list: common/phenotypeDescriptions.csv
+gene_list: common/genes.csv
+withdraw_eids_path: common/withdraws.csv
+variant_blocks_path: common/pvcf_blocks.txt
+
+plot_individual_correlations: false
+
+variant_predictors:
+  AlphaMissense: alphaMissense_score
+  VARITY: VARITY_R
+  ESM1b: ESM1b
+  EVE: EVE
+  MutPred2: MutPred2
+  REVEL: REVEL
+  CADD: CADD
+  PrimateAI: PrimateAI
+  M-CAP: M_CAP
+  PolyPhen2: PolyPhen2
+  SIFT4G: SIFT4G

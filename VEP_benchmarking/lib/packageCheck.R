@@ -1,3 +1,32 @@
+# ---- Safe defaults so packageCheck.R works standalone -----------------------
+options(repos = c(CRAN = "https://cloud.r-project.org"))
+
+if (!exists("CRAN_LIBRARIES")) {
+  CRAN_LIBRARIES <- c(
+    "yaml","data.table","readr","dplyr","tidyr","tibble",
+    "purrr","stringr","ggplot2","magrittr","optparse",
+    # extras the pipeline uses / you saw missing:
+    "ggtext","forcats","gridExtra","Rmisc","reshape2","logr","remotes","retry"
+  )
+}
+
+if (!exists("BIOCONDUCTOR_LIBRARIES")) {
+  BIOCONDUCTOR_LIBRARIES <- c("qvalue")
+}
+
+ensure_cran <- function(pkgs) {
+  need <- setdiff(pkgs, rownames(installed.packages()))
+  if (length(need)) install.packages(need, dependencies = TRUE)
+}
+
+ensure_bioc <- function(pkgs) {
+  if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+  missing <- setdiff(pkgs, rownames(installed.packages()))
+  if (length(missing)) BiocManager::install(missing, ask = FALSE, update = FALSE)
+}
+# ---------------------------------------------------------------------------
+
 CRAN_LIBRARIES = c("yaml", "data.table", "dplyr", "tidyr", "stringr",
                    "ggtext", "glue", "forcats", "gridExtra", "fs", "Rmisc",
                    "reshape2", "stringr", "logr", "BiocManager", "qvalue", "remotes", "retry")

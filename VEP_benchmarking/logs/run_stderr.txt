@@ -1,0 +1,600 @@
+Loading required package: common
+Warning: Missing gene input for genes:GIGYF1, PDE3B, PIEZO1, SMAD6, ABCG5, ANGPTL4, BRCA1, CD36, CEP57, CETP, COL4A4, KRT5, LIPC, MLH1, NR1H3, PALB2, PLIN1, RRBP1, SCARB1, SLC45A2, ABCA1, LCAT, HBB, JAK2, LPL, PCSK9, ANGPTL3, ANGPTL8, APOA5, APOC3, MC1R, MEPE, LDLR, ABCB11, ACAD11, ADAMTS17, ADAMTS6, ALDH16A1, ALPL, ANGPTL2, APBA1, ARID4B, ASGR1, ASXL1, BRSK2, BSN, CDC42SE1, CHEK2, CLDN10, CNIH2, COL6A1, COL6A3, CRP, CST3, DIS3L, DTL, FAM160A1, GCK, GHSR, GMPR, GOLGA8O, GOT1, GP1BA, GP1BB, GP9, GPLD1, GPT, IL17RA, IL33, IQGAP2, IRS1, ITGA2B, KLF1, LYPLAL1, MLXIPL, MPL, MSC, NF1, NPR2, NT5C1A, PAPPA, PIGK, PRRC1, RAB35, RHAG, SCUBE3, SHBG, SLC22A12, SLC2A9, STAB1, TET2, TEX22, TMEM150B, TMPRSS6, TUBB1, TXNDC16, VPS52, ZFAT, ZNF12
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Loading required package: common
+Warning: 2 arguments not used by format 'sample_variants_filtered.csv'
+Error in fread(paste(INPUT_VARIANTs_DIR, fileName, sep = "/"), drop = 1) : 
+  File '/sample_variants_filtered.csv' does not exist or is non-readable. getwd()=='C:/Users/jchen/Desktop/Capstone_project/VEP_benchmarking'
+Calls: setUpEnvAndRun ... apply -> FUN -> fread -> stopf -> raise_condition -> signal
+Execution halted
+Warning: Column 'type' missing in pVals; skipping PCC squaring
+Error in eval(bysub, x, parent.frame()) : object 'gene' not found
+Calls: source ... eval -> eval -> apply -> [ -> [.data.table -> eval -> eval
+Execution halted
