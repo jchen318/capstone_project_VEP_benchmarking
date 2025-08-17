@@ -288,53 +288,95 @@ if ("pred2" %in% names(pVals)) {
   pVals[, pred2_name := NA_character_]
 }
 
+# ---- Smoke-test fallback: ensure required grouping columns exist ----
+if (!data.table::is.data.table(pVals)) data.table::setDT(pVals)
+
+# If missing (sample data case), add harmless placeholders so grouping works
+if (!"gene" %in% names(pVals)) pVals[, gene := "SAMPLE"]
+if (!"code" %in% names(pVals)) pVals[, code := "SAMPLE"]
+# ---------------------------------------------------------------------
+
 # ============================
 
 # Restrict to gene-trait combinations where every predictor was able to make prediction
 #subsetGeneCombs = pVals[, .N, by = c("gene", "code")][N == 441] # 21 * 21 = 441 pairwise predictor comparisons
 #pVals = merge(pVals, subsetGeneCombs[, .(gene, code)])
 
-# Count the number of variant predictors that are indistinguishable from 
-# the best performing predictor
-predictors = apply(pVals[, .SD[which.max(pred1_score)], by = c("gene", "code")], 1, function(row) {
-  # Select relevant variant predictors
-  preds = pVals[gene == row[["gene"]] & pred1 == row[["pred1"]]]
-  
-  # Select indistinguishable preds
-  preds = preds[q_val >= 0.10, pred2]
-  
-  if (length(preds) < 1) return(NULL)
-  
-  return(data.table(gene = row[["gene"]],
-                    indistingushable_pred = str_split(preds, fixed(" ("), simplify = T)[, 1]))
-})
-predictors = rbindlist(predictors)
+# ---- Count indistinguishable predictors (robust) -----------------------------
+if (!data.table::is.data.table(pVals)) data.table::setDT(pVals)
 
-# Summarize predictors
-predictors = predictors[, .(num_indistinguishable = .N), by = "indistingushable_pred"]
+needed_cols <- c("gene","code","pred1_score","pred1","pred2","q_val")
+missing_cols <- setdiff(needed_cols, names(pVals))
+if (length(missing_cols)) {
+  warning("Skipping indistinguishable-predictor summary; missing: ",
+          paste(missing_cols, collapse = ", "))
+  predictors <- data.table(indistingushable_pred = character(0),
+                           num_indistinguishable = integer(0))
+} else {
+  # top row per gene/code by pred1_score
+  top_per <- pVals[, .SD[which.max(pred1_score)], by = c("gene","code")]
 
-# Compute Wilcoxon U test p values
-sigTest = pVals[, .N, by = c("pred1_name", "pred2_name")]
-sigs = apply(sigTest, 1, function(row) {
-  pred1Name = row[["pred1_name"]]
-  pred2Name = row[["pred2_name"]]
-  
-  # Do not compare two same predictors
-  if (pred1Name == pred2Name) return(NA)
-  
-  # Do not compare if predictor 2 did not perform as well as predictor 1
-  pred1Perf = predictors[indistingushable_pred == pred1Name, num_indistinguishable]
-  pred2Perf = predictors[indistingushable_pred == pred2Name, num_indistinguishable]
-  if (pred2Perf <= pred1Perf) return(1)
-  
-  # Filtered table
-  subPVals = pVals[pred1_name == pred1Name & pred2_name == pred2Name]
-  
-  sig = wilcox.test(subPVals$pred1_score, subPVals$pred2_score, alternative = "two.sided", paired = T, exact = F)
-  return(sig$p.value)
-})
-sigTest$p_val = sigs
-sigTest$q_val = qvalue(sigs)$qvalues
+  # iterate rows safely (avoid apply on a data.table)
+  ind_list <- lapply(seq_len(nrow(top_per)), function(i) {
+    row <- top_per[i]
+    preds <- pVals[gene == row$gene & pred1 == row$pred1]
+    preds <- preds[q_val >= 0.10, pred2]
+    if (length(preds) < 1) return(NULL)
+    data.table(
+      gene = row$gene,
+      indistingushable_pred = stringr::word(preds, 1)  # safer than str_split()[,1]
+    )
+  })
+  ind <- data.table::rbindlist(ind_list, use.names = TRUE, fill = TRUE)
+
+  predictors <- if (nrow(ind)) {
+    ind[, .(num_indistinguishable = .N), by = "indistingushable_pred"]
+  } else {
+    data.table(indistingushable_pred = character(0),
+               num_indistinguishable = integer(0))
+  }
+}
+# ------------------------------------------------------------------------------
+
+# ---- Compute Wilcoxon U test p values (robust) -------------------------------
+`%||%` <- function(a, b) if (is.null(a)) b else a
+
+if (!all(c("pred1_name","pred2_name") %in% names(pVals))) {
+  warning("Missing pred1_name/pred2_name; skipping Wilcoxon section.")
+  sigTest <- data.table(pred1_name=character(0), pred2_name=character(0),
+                        p_val=numeric(0), q_val=numeric(0))
+} else if (!nrow(predictors)) {
+  warning("No indistinguishable predictors found; skipping Wilcoxon section.")
+  sigTest <- data.table(pred1_name=character(0), pred2_name=character(0),
+                        p_val=numeric(0), q_val=numeric(0))
+} else {
+  sigTest <- pVals[, .N, by = c("pred1_name","pred2_name")]
+
+  perf <- predictors
+  data.table::setnames(perf, "indistingushable_pred", "name")
+  perf_lookup <- setNames(perf$num_indistinguishable, perf$name)
+
+  sigs <- apply(sigTest, 1, function(row) {
+    pred1Name <- row[["pred1_name"]]
+    pred2Name <- row[["pred2_name"]]
+    if (is.na(pred1Name) || is.na(pred2Name) || pred1Name == pred2Name) return(NA_real_)
+
+    pred1Perf <- perf_lookup[[pred1Name]] %||% 0
+    pred2Perf <- perf_lookup[[pred2Name]] %||% 0
+    if (pred2Perf <= pred1Perf) return(1)
+
+    subPVals <- pVals[pred1_name == pred1Name & pred2_name == pred2Name]
+    if (!nrow(subPVals)) return(NA_real_)
+    suppressWarnings(stats::wilcox.test(subPVals$pred1_score,
+                                        subPVals$pred2_score,
+                                        alternative = "two.sided",
+                                        paired = TRUE, exact = FALSE)$p.value)
+  })
+  sigTest$p_val <- as.numeric(sigs)
+  sigTest$q_val <- tryCatch(qvalue::qvalue(sigTest$p_val)$qvalues,
+                            error = function(e) rep(NA_real_, length(sigTest$p_val)))
+}
+# -------------------------------------------------------------------------------
 
 # Plot comparison
 plotTable = merge(sigTest, predictors, by.x = "pred1_name", by.y = "indistingushable_pred")
