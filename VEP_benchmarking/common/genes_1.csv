@@ -1,0 +1,10 @@
+gene_symbol,ensembl,phenotype_codes,phenotype_descriptions
+LDLR,ENSG00000130164,"x20002_1473
+x6153_1
+x20003_1141146234
+x30780
+x41270_I251","Non-cancer illness code, self-reported: high cholesterol
+Medication for cholesterol, blood pressure, diabetes,<br>or take exogenous hormones: Cholesterol lowering medication
+Treatment/medication code: atorvastatin
+LDL direct
+Atherosclerotic heart disease of native coronary artery"

@@ -1,0 +1,20 @@
+rscript_path: Rscript
+bootstrap_iterations: 50
+occurance_cutoff: 10
+
+# UKB-dependent files you will build on RAP tomorrow:
+all_variants_path: sample_variants_filtered.csv
+unique_variants_path: common/VEP_scores_vFinal_sample.csv
+
+# LDLR-only files created locally:
+phenotype_list: common/phenotypeDescriptions_1.csv
+gene_list: common/genes_1.csv
+withdraw_eids_path: common/withdraws.csv
+variant_blocks_path: common/pvcf_blocks.txt
+
+plot_individual_correlations: false
+
+# Start with predictors you'll actually compute first
+variant_predictors:
+  SIFT4G: SIFT4G
+  PolyPhen2: PolyPhen2

@@ -1,0 +1,6 @@
+field_id,field_type,field_description
+20002,categorical,Non-cancer illness code, self-reported
+6153,categorical,Medication for cholesterol/blood pressure/diabetes or exogenous hormones
+20003,categorical,Treatment/medication code
+30780,continuous,LDL direct (mmol/L)
+41270,categorical,ICD10: main/secondary diagnosis
